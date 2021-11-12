@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ThirdCellCollectionViewCell" reuseIdentifier="ThirdCellCollectionViewCell" id="gTV-IL-0wX" customClass="ThirdCellCollectionViewCell" customModule="Camilo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="205" height="173"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="205" height="173"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3SK-Zp-mqv">
+                        <rect key="frame" x="0.0" y="0.0" width="205" height="173"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jvO-8i-de8">
+                                <rect key="frame" x="0.0" y="0.0" width="205" height="149"/>
+                                <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scS-Oh-Cso">
+                                <rect key="frame" x="0.0" y="157" width="205" height="16"/>
+                                <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="scS-Oh-Cso" secondAttribute="bottom" id="9La-Yu-kbq"/>
+                            <constraint firstItem="jvO-8i-de8" firstAttribute="leading" secondItem="3SK-Zp-mqv" secondAttribute="leading" id="EnZ-1r-9dq"/>
+                            <constraint firstAttribute="trailing" secondItem="scS-Oh-Cso" secondAttribute="trailing" id="NTN-FP-Ve5"/>
+                            <constraint firstItem="jvO-8i-de8" firstAttribute="top" secondItem="3SK-Zp-mqv" secondAttribute="top" id="RnV-t7-00K"/>
+                            <constraint firstAttribute="trailing" secondItem="jvO-8i-de8" secondAttribute="trailing" id="Uui-KB-W1R"/>
+                            <constraint firstItem="scS-Oh-Cso" firstAttribute="leading" secondItem="3SK-Zp-mqv" secondAttribute="leading" id="Xyh-zl-bwR"/>
+                            <constraint firstItem="jvO-8i-de8" firstAttribute="leading" secondItem="3SK-Zp-mqv" secondAttribute="leading" id="aBs-SR-Cga"/>
+                            <constraint firstItem="jvO-8i-de8" firstAttribute="top" secondItem="3SK-Zp-mqv" secondAttribute="top" id="b46-tw-IYZ"/>
+                            <constraint firstItem="scS-Oh-Cso" firstAttribute="top" secondItem="jvO-8i-de8" secondAttribute="bottom" constant="8" id="rIX-Np-kHA"/>
+                            <constraint firstItem="scS-Oh-Cso" firstAttribute="top" secondItem="jvO-8i-de8" secondAttribute="bottom" constant="8" id="sim-hp-eWV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="3SK-Zp-mqv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="2vA-og-YIA"/>
+                <constraint firstAttribute="trailing" secondItem="3SK-Zp-mqv" secondAttribute="trailing" id="JFX-qg-D0i"/>
+                <constraint firstAttribute="bottom" secondItem="3SK-Zp-mqv" secondAttribute="bottom" id="dbT-0J-f6F"/>
+                <constraint firstItem="3SK-Zp-mqv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="mb0-mj-9h1"/>
+            </constraints>
+            <size key="customSize" width="201" height="184"/>
+            <connections>
+                <outlet property="imgCV" destination="jvO-8i-de8" id="XwB-SD-m1n"/>
+                <outlet property="nameLbl" destination="scS-Oh-Cso" id="Ou2-Ui-vn5"/>
+            </connections>
+            <point key="canvasLocation" x="264.49275362318843" y="150.33482142857142"/>
+        </collectionViewCell>
+    </objects>
+</document>

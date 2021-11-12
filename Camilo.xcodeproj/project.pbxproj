@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2297F873273D7C9E00EE4CC9 /* ThirdPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F86D273D7C9E00EE4CC9 /* ThirdPresenter.swift */; };
+		2297F874273D7C9E00EE4CC9 /* ThirdWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F86E273D7C9E00EE4CC9 /* ThirdWorker.swift */; };
+		2297F875273D7C9E00EE4CC9 /* ThirdRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F86F273D7C9E00EE4CC9 /* ThirdRouter.swift */; };
+		2297F876273D7C9E00EE4CC9 /* ThirdModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F870273D7C9E00EE4CC9 /* ThirdModels.swift */; };
+		2297F877273D7C9E00EE4CC9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F871273D7C9E00EE4CC9 /* ThirdViewController.swift */; };
+		2297F878273D7C9E00EE4CC9 /* ThirdInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F872273D7C9E00EE4CC9 /* ThirdInteractor.swift */; };
+		2297F87B273D806B00EE4CC9 /* ThirdCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F879273D806B00EE4CC9 /* ThirdCellCollectionViewCell.swift */; };
+		2297F87C273D806B00EE4CC9 /* ThirdCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2297F87A273D806B00EE4CC9 /* ThirdCellCollectionViewCell.xib */; };
+		2297F87F273DDCFF00EE4CC9 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F87D273DDCFF00EE4CC9 /* TextTableViewCell.swift */; };
+		2297F880273DDCFF00EE4CC9 /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2297F87E273DDCFF00EE4CC9 /* TextTableViewCell.xib */; };
+		2297F883273DEDBA00EE4CC9 /* date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F881273DEDBA00EE4CC9 /* date.swift */; };
+		2297F884273DEDBA00EE4CC9 /* date.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2297F882273DEDBA00EE4CC9 /* date.xib */; };
+		2297F88C273E1F4900EE4CC9 /* AddTaskPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F886273E1F4900EE4CC9 /* AddTaskPresenter.swift */; };
+		2297F88D273E1F4900EE4CC9 /* AddTaskWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F887273E1F4900EE4CC9 /* AddTaskWorker.swift */; };
+		2297F88E273E1F4900EE4CC9 /* AddTaskRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F888273E1F4900EE4CC9 /* AddTaskRouter.swift */; };
+		2297F88F273E1F4900EE4CC9 /* AddTaskModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F889273E1F4900EE4CC9 /* AddTaskModels.swift */; };
+		2297F890273E1F4900EE4CC9 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F88A273E1F4900EE4CC9 /* AddTaskViewController.swift */; };
+		2297F891273E1F4900EE4CC9 /* AddTaskInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F88B273E1F4900EE4CC9 /* AddTaskInteractor.swift */; };
+		2297F894273E26DB00EE4CC9 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F892273E26DB00EE4CC9 /* Actions.swift */; };
+		2297F895273E26DB00EE4CC9 /* Actions.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2297F893273E26DB00EE4CC9 /* Actions.xib */; };
+		2297F898273E26FC00EE4CC9 /* Horarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297F896273E26FC00EE4CC9 /* Horarios.swift */; };
+		2297F899273E26FC00EE4CC9 /* Horarios.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2297F897273E26FC00EE4CC9 /* Horarios.xib */; };
+		2299F06F273C1CE0007172B9 /* SecondPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299F069273C1CE0007172B9 /* SecondPresenter.swift */; };
+		2299F070273C1CE0007172B9 /* SecondWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299F06A273C1CE0007172B9 /* SecondWorker.swift */; };
+		2299F071273C1CE0007172B9 /* SecondRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299F06B273C1CE0007172B9 /* SecondRouter.swift */; };
+		2299F072273C1CE0007172B9 /* SecondModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299F06C273C1CE0007172B9 /* SecondModels.swift */; };
+		2299F073273C1CE0007172B9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299F06D273C1CE0007172B9 /* SecondViewController.swift */; };
+		2299F074273C1CE0007172B9 /* SecondInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299F06E273C1CE0007172B9 /* SecondInteractor.swift */; };
+		2299F077273C2328007172B9 /* cVCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299F075273C2328007172B9 /* cVCellCollectionViewCell.swift */; };
+		2299F078273C2328007172B9 /* cVCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2299F076273C2328007172B9 /* cVCellCollectionViewCell.xib */; };
+		2299F07B273CA77E007172B9 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299F079273CA77E007172B9 /* SecondTableViewCell.swift */; };
+		2299F07C273CA77E007172B9 /* SecondTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2299F07A273CA77E007172B9 /* SecondTableViewCell.xib */; };
+		22D5FEF3273E43980042A7CA /* AllTaskPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FEED273E43980042A7CA /* AllTaskPresenter.swift */; };
+		22D5FEF4273E43980042A7CA /* AllTaskWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FEEE273E43980042A7CA /* AllTaskWorker.swift */; };
+		22D5FEF5273E43980042A7CA /* AllTaskRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FEEF273E43980042A7CA /* AllTaskRouter.swift */; };
+		22D5FEF6273E43980042A7CA /* AllTaskModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FEF0273E43980042A7CA /* AllTaskModels.swift */; };
+		22D5FEF7273E43980042A7CA /* AllTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FEF1273E43980042A7CA /* AllTaskViewController.swift */; };
+		22D5FEF8273E43980042A7CA /* AllTaskInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FEF2273E43980042A7CA /* AllTaskInteractor.swift */; };
+		22D5FF00273E45680042A7CA /* SecondAddPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FEFA273E45680042A7CA /* SecondAddPresenter.swift */; };
+		22D5FF01273E45680042A7CA /* SecondAddWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FEFB273E45680042A7CA /* SecondAddWorker.swift */; };
+		22D5FF02273E45680042A7CA /* SecondAddRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FEFC273E45680042A7CA /* SecondAddRouter.swift */; };
+		22D5FF03273E45680042A7CA /* SecondAddModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FEFD273E45680042A7CA /* SecondAddModels.swift */; };
+		22D5FF04273E45680042A7CA /* SecondAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FEFE273E45680042A7CA /* SecondAddViewController.swift */; };
+		22D5FF05273E45680042A7CA /* SecondAddInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FEFF273E45680042A7CA /* SecondAddInteractor.swift */; };
+		22D5FF0D273E458E0042A7CA /* SecondAllPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FF07273E458E0042A7CA /* SecondAllPresenter.swift */; };
+		22D5FF0E273E458E0042A7CA /* SecondAllWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FF08273E458E0042A7CA /* SecondAllWorker.swift */; };
+		22D5FF0F273E458E0042A7CA /* SecondAllRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FF09273E458E0042A7CA /* SecondAllRouter.swift */; };
+		22D5FF10273E458E0042A7CA /* SecondAllModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FF0A273E458E0042A7CA /* SecondAllModels.swift */; };
+		22D5FF11273E458E0042A7CA /* SecondAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FF0B273E458E0042A7CA /* SecondAllViewController.swift */; };
+		22D5FF12273E458E0042A7CA /* SecondAllInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5FF0C273E458E0042A7CA /* SecondAllInteractor.swift */; };
+		22D90CE1273963E200F1BD2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D90CE0273963E200F1BD2A /* AppDelegate.swift */; };
+		22D90CE3273963E200F1BD2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D90CE2273963E200F1BD2A /* SceneDelegate.swift */; };
+		22D90CE5273963E200F1BD2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D90CE4273963E200F1BD2A /* ViewController.swift */; };
+		22D90CE8273963E200F1BD2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D90CE6273963E200F1BD2A /* Main.storyboard */; };
+		22D90CEA273963E500F1BD2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D90CE9273963E500F1BD2A /* Assets.xcassets */; };
+		22D90CED273963E500F1BD2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D90CEB273963E500F1BD2A /* LaunchScreen.storyboard */; };
+		22D90CFB2739784500F1BD2A /* FirstPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D90CF52739784500F1BD2A /* FirstPresenter.swift */; };
+		22D90CFC2739784500F1BD2A /* FirstWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D90CF62739784500F1BD2A /* FirstWorker.swift */; };
+		22D90CFD2739784500F1BD2A /* FirstRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D90CF72739784500F1BD2A /* FirstRouter.swift */; };
+		22D90CFE2739784500F1BD2A /* FirstModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D90CF82739784500F1BD2A /* FirstModels.swift */; };
+		22D90CFF2739784500F1BD2A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D90CF92739784500F1BD2A /* FirstViewController.swift */; };
+		22D90D002739784500F1BD2A /* FirstInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D90CFA2739784500F1BD2A /* FirstInteractor.swift */; };
+		E66C88A429AC74A64150EA10 /* Pods_Camilo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7EF12E3E42E967459D1C77 /* Pods_Camilo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2297F86D273D7C9E00EE4CC9 /* ThirdPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPresenter.swift; sourceTree = "<group>"; };
+		2297F86E273D7C9E00EE4CC9 /* ThirdWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdWorker.swift; sourceTree = "<group>"; };
+		2297F86F273D7C9E00EE4CC9 /* ThirdRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdRouter.swift; sourceTree = "<group>"; };
+		2297F870273D7C9E00EE4CC9 /* ThirdModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdModels.swift; sourceTree = "<group>"; };
+		2297F871273D7C9E00EE4CC9 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		2297F872273D7C9E00EE4CC9 /* ThirdInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdInteractor.swift; sourceTree = "<group>"; };
+		2297F879273D806B00EE4CC9 /* ThirdCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		2297F87A273D806B00EE4CC9 /* ThirdCellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		2297F87D273DDCFF00EE4CC9 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		2297F87E273DDCFF00EE4CC9 /* TextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
+		2297F881273DEDBA00EE4CC9 /* date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = date.swift; sourceTree = "<group>"; };
+		2297F882273DEDBA00EE4CC9 /* date.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = date.xib; sourceTree = "<group>"; };
+		2297F886273E1F4900EE4CC9 /* AddTaskPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskPresenter.swift; sourceTree = "<group>"; };
+		2297F887273E1F4900EE4CC9 /* AddTaskWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskWorker.swift; sourceTree = "<group>"; };
+		2297F888273E1F4900EE4CC9 /* AddTaskRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskRouter.swift; sourceTree = "<group>"; };
+		2297F889273E1F4900EE4CC9 /* AddTaskModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskModels.swift; sourceTree = "<group>"; };
+		2297F88A273E1F4900EE4CC9 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		2297F88B273E1F4900EE4CC9 /* AddTaskInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskInteractor.swift; sourceTree = "<group>"; };
+		2297F892273E26DB00EE4CC9 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		2297F893273E26DB00EE4CC9 /* Actions.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Actions.xib; sourceTree = "<group>"; };
+		2297F896273E26FC00EE4CC9 /* Horarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horarios.swift; sourceTree = "<group>"; };
+		2297F897273E26FC00EE4CC9 /* Horarios.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Horarios.xib; sourceTree = "<group>"; };
+		2299F069273C1CE0007172B9 /* SecondPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPresenter.swift; sourceTree = "<group>"; };
+		2299F06A273C1CE0007172B9 /* SecondWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondWorker.swift; sourceTree = "<group>"; };
+		2299F06B273C1CE0007172B9 /* SecondRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondRouter.swift; sourceTree = "<group>"; };
+		2299F06C273C1CE0007172B9 /* SecondModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondModels.swift; sourceTree = "<group>"; };
+		2299F06D273C1CE0007172B9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2299F06E273C1CE0007172B9 /* SecondInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInteractor.swift; sourceTree = "<group>"; };
+		2299F075273C2328007172B9 /* cVCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cVCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		2299F076273C2328007172B9 /* cVCellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cVCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		2299F079273CA77E007172B9 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		2299F07A273CA77E007172B9 /* SecondTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondTableViewCell.xib; sourceTree = "<group>"; };
+		22D5FEED273E43980042A7CA /* AllTaskPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTaskPresenter.swift; sourceTree = "<group>"; };
+		22D5FEEE273E43980042A7CA /* AllTaskWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTaskWorker.swift; sourceTree = "<group>"; };
+		22D5FEEF273E43980042A7CA /* AllTaskRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTaskRouter.swift; sourceTree = "<group>"; };
+		22D5FEF0273E43980042A7CA /* AllTaskModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTaskModels.swift; sourceTree = "<group>"; };
+		22D5FEF1273E43980042A7CA /* AllTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTaskViewController.swift; sourceTree = "<group>"; };
+		22D5FEF2273E43980042A7CA /* AllTaskInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTaskInteractor.swift; sourceTree = "<group>"; };
+		22D5FEFA273E45680042A7CA /* SecondAddPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAddPresenter.swift; sourceTree = "<group>"; };
+		22D5FEFB273E45680042A7CA /* SecondAddWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAddWorker.swift; sourceTree = "<group>"; };
+		22D5FEFC273E45680042A7CA /* SecondAddRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAddRouter.swift; sourceTree = "<group>"; };
+		22D5FEFD273E45680042A7CA /* SecondAddModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAddModels.swift; sourceTree = "<group>"; };
+		22D5FEFE273E45680042A7CA /* SecondAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAddViewController.swift; sourceTree = "<group>"; };
+		22D5FEFF273E45680042A7CA /* SecondAddInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAddInteractor.swift; sourceTree = "<group>"; };
+		22D5FF07273E458E0042A7CA /* SecondAllPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAllPresenter.swift; sourceTree = "<group>"; };
+		22D5FF08273E458E0042A7CA /* SecondAllWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAllWorker.swift; sourceTree = "<group>"; };
+		22D5FF09273E458E0042A7CA /* SecondAllRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAllRouter.swift; sourceTree = "<group>"; };
+		22D5FF0A273E458E0042A7CA /* SecondAllModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAllModels.swift; sourceTree = "<group>"; };
+		22D5FF0B273E458E0042A7CA /* SecondAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAllViewController.swift; sourceTree = "<group>"; };
+		22D5FF0C273E458E0042A7CA /* SecondAllInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAllInteractor.swift; sourceTree = "<group>"; };
+		22D90CDD273963E200F1BD2A /* Camilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D90CE0273963E200F1BD2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22D90CE2273963E200F1BD2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22D90CE4273963E200F1BD2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22D90CE7273963E200F1BD2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22D90CE9273963E500F1BD2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22D90CEC273963E500F1BD2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22D90CEE273963E500F1BD2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D90CF52739784500F1BD2A /* FirstPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPresenter.swift; sourceTree = "<group>"; };
+		22D90CF62739784500F1BD2A /* FirstWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWorker.swift; sourceTree = "<group>"; };
+		22D90CF72739784500F1BD2A /* FirstRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRouter.swift; sourceTree = "<group>"; };
+		22D90CF82739784500F1BD2A /* FirstModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstModels.swift; sourceTree = "<group>"; };
+		22D90CF92739784500F1BD2A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		22D90CFA2739784500F1BD2A /* FirstInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstInteractor.swift; sourceTree = "<group>"; };
+		2E1289B64E81B6B06885CDF1 /* Pods-Camilo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camilo.debug.xcconfig"; path = "Target Support Files/Pods-Camilo/Pods-Camilo.debug.xcconfig"; sourceTree = "<group>"; };
+		BF7EF12E3E42E967459D1C77 /* Pods_Camilo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Camilo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBBD107D39DE090E9D2E6BC /* Pods-Camilo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camilo.release.xcconfig"; path = "Target Support Files/Pods-Camilo/Pods-Camilo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22D90CDA273963E200F1BD2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66C88A429AC74A64150EA10 /* Pods_Camilo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2297F86C273D7C7B00EE4CC9 /* ThirdController */ = {
+			isa = PBXGroup;
+			children = (
+				2297F86D273D7C9E00EE4CC9 /* ThirdPresenter.swift */,
+				2297F86E273D7C9E00EE4CC9 /* ThirdWorker.swift */,
+				2297F86F273D7C9E00EE4CC9 /* ThirdRouter.swift */,
+				2297F870273D7C9E00EE4CC9 /* ThirdModels.swift */,
+				2297F871273D7C9E00EE4CC9 /* ThirdViewController.swift */,
+				2297F872273D7C9E00EE4CC9 /* ThirdInteractor.swift */,
+			);
+			path = ThirdController;
+			sourceTree = "<group>";
+		};
+		2297F885273E1F2100EE4CC9 /* AddTask */ = {
+			isa = PBXGroup;
+			children = (
+				2297F886273E1F4900EE4CC9 /* AddTaskPresenter.swift */,
+				2297F887273E1F4900EE4CC9 /* AddTaskWorker.swift */,
+				2297F888273E1F4900EE4CC9 /* AddTaskRouter.swift */,
+				2297F889273E1F4900EE4CC9 /* AddTaskModels.swift */,
+				2297F88A273E1F4900EE4CC9 /* AddTaskViewController.swift */,
+				2297F88B273E1F4900EE4CC9 /* AddTaskInteractor.swift */,
+			);
+			path = AddTask;
+			sourceTree = "<group>";
+		};
+		2299F068273C1CB5007172B9 /* SecondController */ = {
+			isa = PBXGroup;
+			children = (
+				2299F069273C1CE0007172B9 /* SecondPresenter.swift */,
+				2299F06A273C1CE0007172B9 /* SecondWorker.swift */,
+				2299F06B273C1CE0007172B9 /* SecondRouter.swift */,
+				2299F06C273C1CE0007172B9 /* SecondModels.swift */,
+				2299F06D273C1CE0007172B9 /* SecondViewController.swift */,
+				2299F06E273C1CE0007172B9 /* SecondInteractor.swift */,
+			);
+			path = SecondController;
+			sourceTree = "<group>";
+		};
+		22D5FEEB273E43610042A7CA /* AllTask */ = {
+			isa = PBXGroup;
+			children = (
+				22D5FEED273E43980042A7CA /* AllTaskPresenter.swift */,
+				22D5FEEE273E43980042A7CA /* AllTaskWorker.swift */,
+				22D5FEEF273E43980042A7CA /* AllTaskRouter.swift */,
+				22D5FEF0273E43980042A7CA /* AllTaskModels.swift */,
+				22D5FEF1273E43980042A7CA /* AllTaskViewController.swift */,
+				22D5FEF2273E43980042A7CA /* AllTaskInteractor.swift */,
+			);
+			path = AllTask;
+			sourceTree = "<group>";
+		};
+		22D5FEF9273E454D0042A7CA /* SecondAdd */ = {
+			isa = PBXGroup;
+			children = (
+				22D5FEFA273E45680042A7CA /* SecondAddPresenter.swift */,
+				22D5FEFB273E45680042A7CA /* SecondAddWorker.swift */,
+				22D5FEFC273E45680042A7CA /* SecondAddRouter.swift */,
+				22D5FEFD273E45680042A7CA /* SecondAddModels.swift */,
+				22D5FEFE273E45680042A7CA /* SecondAddViewController.swift */,
+				22D5FEFF273E45680042A7CA /* SecondAddInteractor.swift */,
+			);
+			path = SecondAdd;
+			sourceTree = "<group>";
+		};
+		22D5FF06273E45700042A7CA /* SecondAll */ = {
+			isa = PBXGroup;
+			children = (
+				22D5FF07273E458E0042A7CA /* SecondAllPresenter.swift */,
+				22D5FF08273E458E0042A7CA /* SecondAllWorker.swift */,
+				22D5FF09273E458E0042A7CA /* SecondAllRouter.swift */,
+				22D5FF0A273E458E0042A7CA /* SecondAllModels.swift */,
+				22D5FF0B273E458E0042A7CA /* SecondAllViewController.swift */,
+				22D5FF0C273E458E0042A7CA /* SecondAllInteractor.swift */,
+			);
+			path = SecondAll;
+			sourceTree = "<group>";
+		};
+		22D5FF13273E59330042A7CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2299F075273C2328007172B9 /* cVCellCollectionViewCell.swift */,
+				2299F076273C2328007172B9 /* cVCellCollectionViewCell.xib */,
+				2299F079273CA77E007172B9 /* SecondTableViewCell.swift */,
+				2299F07A273CA77E007172B9 /* SecondTableViewCell.xib */,
+				2297F879273D806B00EE4CC9 /* ThirdCellCollectionViewCell.swift */,
+				2297F87A273D806B00EE4CC9 /* ThirdCellCollectionViewCell.xib */,
+				2297F87D273DDCFF00EE4CC9 /* TextTableViewCell.swift */,
+				2297F87E273DDCFF00EE4CC9 /* TextTableViewCell.xib */,
+				2297F881273DEDBA00EE4CC9 /* date.swift */,
+				2297F882273DEDBA00EE4CC9 /* date.xib */,
+				2297F892273E26DB00EE4CC9 /* Actions.swift */,
+				2297F893273E26DB00EE4CC9 /* Actions.xib */,
+				2297F896273E26FC00EE4CC9 /* Horarios.swift */,
+				2297F897273E26FC00EE4CC9 /* Horarios.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		22D90CD4273963E200F1BD2A = {
+			isa = PBXGroup;
+			children = (
+				22D90CDF273963E200F1BD2A /* Camilo */,
+				22D90CDE273963E200F1BD2A /* Products */,
+				2F2358A1F798DB6FBC8AD9D9 /* Pods */,
+				6AF5795B35761CB61CCC482D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22D90CDE273963E200F1BD2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22D90CDD273963E200F1BD2A /* Camilo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22D90CDF273963E200F1BD2A /* Camilo */ = {
+			isa = PBXGroup;
+			children = (
+				22D5FF13273E59330042A7CA /* Views */,
+				22D5FF06273E45700042A7CA /* SecondAll */,
+				22D5FEF9273E454D0042A7CA /* SecondAdd */,
+				22D5FEEB273E43610042A7CA /* AllTask */,
+				2297F885273E1F2100EE4CC9 /* AddTask */,
+				2297F86C273D7C7B00EE4CC9 /* ThirdController */,
+				2299F068273C1CB5007172B9 /* SecondController */,
+				22D90CF42739780600F1BD2A /* FirstController */,
+				22D90CE0273963E200F1BD2A /* AppDelegate.swift */,
+				22D90CE2273963E200F1BD2A /* SceneDelegate.swift */,
+				22D90CE4273963E200F1BD2A /* ViewController.swift */,
+				22D90CE6273963E200F1BD2A /* Main.storyboard */,
+				22D90CE9273963E500F1BD2A /* Assets.xcassets */,
+				22D90CEB273963E500F1BD2A /* LaunchScreen.storyboard */,
+				22D90CEE273963E500F1BD2A /* Info.plist */,
+			);
+			path = Camilo;
+			sourceTree = "<group>";
+		};
+		22D90CF42739780600F1BD2A /* FirstController */ = {
+			isa = PBXGroup;
+			children = (
+				22D90CF52739784500F1BD2A /* FirstPresenter.swift */,
+				22D90CF62739784500F1BD2A /* FirstWorker.swift */,
+				22D90CF72739784500F1BD2A /* FirstRouter.swift */,
+				22D90CF82739784500F1BD2A /* FirstModels.swift */,
+				22D90CF92739784500F1BD2A /* FirstViewController.swift */,
+				22D90CFA2739784500F1BD2A /* FirstInteractor.swift */,
+			);
+			path = FirstController;
+			sourceTree = "<group>";
+		};
+		2F2358A1F798DB6FBC8AD9D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E1289B64E81B6B06885CDF1 /* Pods-Camilo.debug.xcconfig */,
+				EFBBD107D39DE090E9D2E6BC /* Pods-Camilo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6AF5795B35761CB61CCC482D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF7EF12E3E42E967459D1C77 /* Pods_Camilo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22D90CDC273963E200F1BD2A /* Camilo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D90CF1273963E500F1BD2A /* Build configuration list for PBXNativeTarget "Camilo" */;
+			buildPhases = (
+				7720A2504444C6E0E3D75645 /* [CP] Check Pods Manifest.lock */,
+				22D90CD9273963E200F1BD2A /* Sources */,
+				22D90CDA273963E200F1BD2A /* Frameworks */,
+				22D90CDB273963E200F1BD2A /* Resources */,
+				F060924AD718AB327EF8C465 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Camilo;
+			productName = Camilo;
+			productReference = 22D90CDD273963E200F1BD2A /* Camilo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22D90CD5273963E200F1BD2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					22D90CDC273963E200F1BD2A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 22D90CD8273963E200F1BD2A /* Build configuration list for PBXProject "Camilo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22D90CD4273963E200F1BD2A;
+			productRefGroup = 22D90CDE273963E200F1BD2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22D90CDC273963E200F1BD2A /* Camilo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22D90CDB273963E200F1BD2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2297F899273E26FC00EE4CC9 /* Horarios.xib in Resources */,
+				2297F87C273D806B00EE4CC9 /* ThirdCellCollectionViewCell.xib in Resources */,
+				22D90CED273963E500F1BD2A /* LaunchScreen.storyboard in Resources */,
+				2297F880273DDCFF00EE4CC9 /* TextTableViewCell.xib in Resources */,
+				2299F078273C2328007172B9 /* cVCellCollectionViewCell.xib in Resources */,
+				2297F895273E26DB00EE4CC9 /* Actions.xib in Resources */,
+				2299F07C273CA77E007172B9 /* SecondTableViewCell.xib in Resources */,
+				22D90CEA273963E500F1BD2A /* Assets.xcassets in Resources */,
+				22D90CE8273963E200F1BD2A /* Main.storyboard in Resources */,
+				2297F884273DEDBA00EE4CC9 /* date.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7720A2504444C6E0E3D75645 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Camilo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F060924AD718AB327EF8C465 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Camilo/Pods-Camilo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Camilo/Pods-Camilo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Camilo/Pods-Camilo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22D90CD9273963E200F1BD2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2297F874273D7C9E00EE4CC9 /* ThirdWorker.swift in Sources */,
+				22D5FF03273E45680042A7CA /* SecondAddModels.swift in Sources */,
+				2297F88C273E1F4900EE4CC9 /* AddTaskPresenter.swift in Sources */,
+				22D90CFC2739784500F1BD2A /* FirstWorker.swift in Sources */,
+				22D5FEF5273E43980042A7CA /* AllTaskRouter.swift in Sources */,
+				22D90CE5273963E200F1BD2A /* ViewController.swift in Sources */,
+				2299F074273C1CE0007172B9 /* SecondInteractor.swift in Sources */,
+				2297F87F273DDCFF00EE4CC9 /* TextTableViewCell.swift in Sources */,
+				22D90D002739784500F1BD2A /* FirstInteractor.swift in Sources */,
+				2299F070273C1CE0007172B9 /* SecondWorker.swift in Sources */,
+				22D5FF04273E45680042A7CA /* SecondAddViewController.swift in Sources */,
+				2299F073273C1CE0007172B9 /* SecondViewController.swift in Sources */,
+				22D5FF12273E458E0042A7CA /* SecondAllInteractor.swift in Sources */,
+				2297F891273E1F4900EE4CC9 /* AddTaskInteractor.swift in Sources */,
+				22D90CE1273963E200F1BD2A /* AppDelegate.swift in Sources */,
+				2297F877273D7C9E00EE4CC9 /* ThirdViewController.swift in Sources */,
+				22D5FF0E273E458E0042A7CA /* SecondAllWorker.swift in Sources */,
+				2299F072273C1CE0007172B9 /* SecondModels.swift in Sources */,
+				2297F883273DEDBA00EE4CC9 /* date.swift in Sources */,
+				22D90CFF2739784500F1BD2A /* FirstViewController.swift in Sources */,
+				22D5FF0F273E458E0042A7CA /* SecondAllRouter.swift in Sources */,
+				2299F077273C2328007172B9 /* cVCellCollectionViewCell.swift in Sources */,
+				2297F878273D7C9E00EE4CC9 /* ThirdInteractor.swift in Sources */,
+				22D5FEF6273E43980042A7CA /* AllTaskModels.swift in Sources */,
+				2297F88D273E1F4900EE4CC9 /* AddTaskWorker.swift in Sources */,
+				22D5FF02273E45680042A7CA /* SecondAddRouter.swift in Sources */,
+				22D90CE3273963E200F1BD2A /* SceneDelegate.swift in Sources */,
+				2299F07B273CA77E007172B9 /* SecondTableViewCell.swift in Sources */,
+				22D5FEF4273E43980042A7CA /* AllTaskWorker.swift in Sources */,
+				22D90CFB2739784500F1BD2A /* FirstPresenter.swift in Sources */,
+				2297F890273E1F4900EE4CC9 /* AddTaskViewController.swift in Sources */,
+				22D5FEF8273E43980042A7CA /* AllTaskInteractor.swift in Sources */,
+				2297F898273E26FC00EE4CC9 /* Horarios.swift in Sources */,
+				2297F88F273E1F4900EE4CC9 /* AddTaskModels.swift in Sources */,
+				2297F88E273E1F4900EE4CC9 /* AddTaskRouter.swift in Sources */,
+				22D5FF01273E45680042A7CA /* SecondAddWorker.swift in Sources */,
+				22D5FF11273E458E0042A7CA /* SecondAllViewController.swift in Sources */,
+				22D5FF00273E45680042A7CA /* SecondAddPresenter.swift in Sources */,
+				22D5FEF3273E43980042A7CA /* AllTaskPresenter.swift in Sources */,
+				22D5FF10273E458E0042A7CA /* SecondAllModels.swift in Sources */,
+				22D90CFE2739784500F1BD2A /* FirstModels.swift in Sources */,
+				2297F873273D7C9E00EE4CC9 /* ThirdPresenter.swift in Sources */,
+				22D5FEF7273E43980042A7CA /* AllTaskViewController.swift in Sources */,
+				2297F87B273D806B00EE4CC9 /* ThirdCellCollectionViewCell.swift in Sources */,
+				2297F894273E26DB00EE4CC9 /* Actions.swift in Sources */,
+				2297F875273D7C9E00EE4CC9 /* ThirdRouter.swift in Sources */,
+				2299F06F273C1CE0007172B9 /* SecondPresenter.swift in Sources */,
+				22D5FF05273E45680042A7CA /* SecondAddInteractor.swift in Sources */,
+				2299F071273C1CE0007172B9 /* SecondRouter.swift in Sources */,
+				22D90CFD2739784500F1BD2A /* FirstRouter.swift in Sources */,
+				2297F876273D7C9E00EE4CC9 /* ThirdModels.swift in Sources */,
+				22D5FF0D273E458E0042A7CA /* SecondAllPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22D90CE6273963E200F1BD2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22D90CE7273963E200F1BD2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22D90CEB273963E500F1BD2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22D90CEC273963E500F1BD2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22D90CEF273963E500F1BD2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22D90CF0273963E500F1BD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22D90CF2273963E500F1BD2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E1289B64E81B6B06885CDF1 /* Pods-Camilo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7D7T5674A;
+				INFOPLIST_FILE = Camilo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = camilo.cm.Camilo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22D90CF3273963E500F1BD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBBD107D39DE090E9D2E6BC /* Pods-Camilo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7D7T5674A;
+				INFOPLIST_FILE = Camilo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = camilo.cm.Camilo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22D90CD8273963E200F1BD2A /* Build configuration list for PBXProject "Camilo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D90CEF273963E500F1BD2A /* Debug */,
+				22D90CF0273963E500F1BD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D90CF1273963E500F1BD2A /* Build configuration list for PBXNativeTarget "Camilo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D90CF2273963E500F1BD2A /* Debug */,
+				22D90CF3273963E500F1BD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22D90CD5273963E200F1BD2A /* Project object */;
+}
